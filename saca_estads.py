@@ -31,7 +31,7 @@ def main():
         Cantidad de palabras: {palabras}
         Promedio de oracion: {promedio}
         Promedio de palabra: {prom_palabra}
-        Palabra más representativa: {mas_comun}
+        Palabra más representativa: {mas_comun}\
         """.format(oraciones=num_oraciones, palabras=num_palabras,
         mas_comun=mas_comun, promedio=num_palabras/num_oraciones,
         prom_palabra=prom_palabra)
@@ -39,6 +39,8 @@ def main():
         print('        Top-10 palabras representativas:')
         for palabra in top_ten:
             print('                {}'.format(palabra[0]))
+        print()
+
 
 class Proceso(object):
     def __init__(self, etiquetado):
