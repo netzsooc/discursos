@@ -26,7 +26,7 @@ def main():
         top_ten = texto.top_ten
         prom_palabra = texto.prom_palabra
 
-        print("""
+        print("""\
         Cantidad de oraciones: {oraciones}
         Cantidad de palabras: {palabras}
         Promedio de oracion: {promedio}
